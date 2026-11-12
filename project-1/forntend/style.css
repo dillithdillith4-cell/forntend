@@ -1,0 +1,171 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 11px 7px;
+
+}
+
+nav .nav{
+    list-style: none;
+    display: flex;
+    gap: 10px 20px;
+}
+nav .nav li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+        
+            &:hover{
+                color:blueviolet
+            }
+}
+
+.nav li a i{
+    font-size: 20px;
+}
+
+.profile{
+    margin-top: 20%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .icons{
+    display: flex;
+    flex-direction: column;
+    gap: 18px 25px;
+    
+     
+       
+}
+
+main .icons i{
+cursor: pointer;
+
+    &:hover{
+        color: blueviolet;
+       }
+}
+
+main .info span{
+    display: block;
+
+}
+
+main .info h2{
+    font-size: 45px;
+}
+
+.info p{
+    width: 300px;
+    text-align: justify;
+    color: grey;
+}
+
+.info button{
+    margin: 20px 0px;
+    padding: 15px 24px;
+    color: #fff;
+    background: rgb(115, 31, 194);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+       &:hover{
+
+         opacity: 0.7;
+       }
+
+
+    
+}
+
+main .info p,h2{
+    padding: 8px 0px;
+}
+
+main .profile-img img{
+        border-radius: 999px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     
+
+}
+
+@media screen and (max-width:800px) {
+
+    
+    main .profile-img img{
+
+        width: 250px;
+        height: 300px;
+        border-radius: 999px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     
+
+}
+
+main .info h2,h1{
+
+    font-size: 20px;
+}
+
+main .info p{
+    font-size: 14px;
+    width: 200px;
+}
+     
+}
+
+@media screen and (max-width:500px) {
+
+    
+ @media screen and (max-width:800px) {
+
+    
+    main .profile-img img{
+
+        width: 150px;
+        height: 200px;
+        border-radius: 999px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     
+
+}
+
+main .info h2,h1{
+
+    font-size: 15px;
+}
+
+main .info p{
+    font-size: 12px;
+    width: 150px;
+}
+     
+}
+
+.nav li a{
+    font-size: 12px;
+}
+
+.info button{
+
+     padding: 10px 12px;
+     font-size: 10px;
+
+}
+
+}
+
